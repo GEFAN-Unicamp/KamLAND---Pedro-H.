@@ -72,7 +72,7 @@ The Flux is calculated through the following parameterization:
 \]
 where the factors $a$ and $\phi_i$ are provided by KamLAND, table~\ref{tab:nuflux}.
 
-\begin{table}{h!}
+\begin{table}[h!]
   \begin{center}
     \caption{Neutrino flux parameters}
     \label{tab:nuflux}
@@ -89,7 +89,7 @@ where the factors $a$ and $\phi_i$ are provided by KamLAND, table~\ref{tab:nuflu
 
 We assume the same flux composition for all reactors. We use 22 reactors with the distances and contributions to total flux in KamLAND given by table~\ref{tab:reactors}
         
-\begin{table}{h!}
+\begin{table}[h!]
   \begin{center}
     \caption{Reactors}
     \label{tab:reactors}
@@ -118,6 +118,41 @@ We assume the same flux composition for all reactors. We use 22 reactors with th
       &0.6  &735 \\
       &0.5  &709 \\
       &0.5  &986 \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+The data are presented in table~\ref{tab:data}, ``graphically reduced'' from KamLAND paper.
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Data}
+    \label{tab:data}
+    \begin{tabular}{c|c|c}
+      \hline
+      $\Delta E_\nu$ (MeV) &     $R_{th}$    & $R_{ex}/R_{th}$ \\
+      \hline
+      15.6597 - 24.6363 &     59.547829 &       0.395866 \\
+      24.6363 - 27.6942 &     105.21388 &       0.667727 \\
+      27.6942 - 29.4698 &     91.706429 &       0.629571 \\
+      29.4698 - 31.3440 &     119.44465 &       0.586645 \\
+      31.3440 - 33.1196 &     131.14526 &       0.804452 \\
+      33.1196 - 35.0925 &     161.02548 &       0.785374 \\
+      35.0925 - 36.7694 &     145.14534 &       0.732909 \\
+      36.7694 - 38.8409 &     184.27446 &       0.558029 \\
+      38.8409 - 41.1097 &     201.80777 &       0.558029 \\
+      41.1097 - 43.9704 &     245.68504 &       0.551669 \\
+      43.9704 - 47.0284 &     243.55714 &       0.489666 \\
+      47.0284 - 50.3822 &     230.59836 &       0.387917 \\
+      50.3822 - 53.9334 &     200.76579 &       0.467409 \\
+      53.9334 - 57.6819 &     176.71275 &       0.491256 \\
+      57.6819 - 61.7263 &     153.93623 &       0.585056 \\
+      61.7263 - 66.1652 &     131.16353 &       0.497615 \\
+      66.1652 - 71.7879 &     117.47219 &       0.575517 \\
+      71.7879 - 78.8903 &     92.720367 &       0.658188 \\
+      78.8903 - 86.6831 &     57.012432 &       0.612083 \\
+      86.6831 - 110.000 &     30.065214 &       0.279809 \\
       \hline
     \end{tabular}
   \end{center}
